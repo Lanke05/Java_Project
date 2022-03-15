@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PractiseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="TestPack.PractiseTestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testD"/>
+          <include name="testC"/>
+          <include name="testB"/>
+          <include name="afterTest"/>
+          <include name="testA"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- TestPack.PractiseTestClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [PractiseSuite] -->

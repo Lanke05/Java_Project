@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="7" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-16T12:49:16 IST" name="Suite" finished-at="2022-02-16T12:53:06 IST" duration-ms="230121">
+    <groups>
+    </groups>
+    <test started-at="2022-02-16T12:49:16 IST" name="ChromeTest" finished-at="2022-02-16T12:50:59 IST" duration-ms="102721">
+      <class name="TestCasePack.TestNG_Class_101">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:49:16 IST" name="launchBrowser" finished-at="2022-02-16T12:49:35 IST" duration-ms="18462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:49:40 IST" name="createPOMObjects" finished-at="2022-02-16T12:49:41 IST" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:49:41 IST" name="loginToApplication" finished-at="2022-02-16T12:49:45 IST" duration-ms="4082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTimeTrackPage()[pri:1, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:49:45 IST" name="toVerifyTimeTrackPage" finished-at="2022-02-16T12:50:07 IST" duration-ms="21994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTimeTrackPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:07 IST" name="logoutFromApplication" finished-at="2022-02-16T12:50:11 IST" duration-ms="4248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTimeTrackPage status=SUCCESS method=TestNG_Class_101.toVerifyTimeTrackPage()[pri:1, instance:TestCasePack.TestNG_Class_101@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:11 IST" name="loginToApplication" finished-at="2022-02-16T12:50:13 IST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTasksPage()[pri:2, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:13 IST" name="toVerifyTasksPage" finished-at="2022-02-16T12:50:23 IST" duration-ms="10036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTasksPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:23 IST" name="logoutFromApplication" finished-at="2022-02-16T12:50:28 IST" duration-ms="4842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTasksPage status=SUCCESS method=TestNG_Class_101.toVerifyTasksPage()[pri:2, instance:TestCasePack.TestNG_Class_101@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:28 IST" name="loginToApplication" finished-at="2022-02-16T12:50:29 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyReportsPage()[pri:3, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:29 IST" name="toVerifyReportsPage" finished-at="2022-02-16T12:50:34 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyReportsPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:34 IST" name="logoutFromApplication" finished-at="2022-02-16T12:50:38 IST" duration-ms="4020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyReportsPage status=SUCCESS method=TestNG_Class_101.toVerifyReportsPage()[pri:3, instance:TestCasePack.TestNG_Class_101@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:38 IST" name="clearPOMObject" finished-at="2022-02-16T12:50:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:TestCasePack.TestNG_Class_101@647e447]" started-at="2022-02-16T12:50:42 IST" name="closedBrowser" finished-at="2022-02-16T12:50:57 IST" duration-ms="14642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- TestCasePack.TestNG_Class_101 -->
+      <class name="TestCasePack.TestNG_Class_102">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:49:35 IST" name="launchBrowser" finished-at="2022-02-16T12:49:40 IST" duration-ms="5648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:49:40 IST" name="createPOMObjects" finished-at="2022-02-16T12:49:41 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:49:41 IST" name="loginToApplication" finished-at="2022-02-16T12:49:45 IST" duration-ms="4047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyUsersPage()[pri:4, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:49:45 IST" name="toVerifyUsersPage" finished-at="2022-02-16T12:50:29 IST" duration-ms="43949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUsersPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:29 IST" name="logoutFromApplication" finished-at="2022-02-16T12:50:33 IST" duration-ms="4356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUsersPage status=SUCCESS method=TestNG_Class_102.toVerifyUsersPage()[pri:4, instance:TestCasePack.TestNG_Class_102@68999068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:33 IST" name="loginToApplication" finished-at="2022-02-16T12:50:35 IST" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyWorkSchedulePage()[pri:5, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:35 IST" name="toVerifyWorkSchedulePage" finished-at="2022-02-16T12:50:38 IST" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyWorkSchedulePage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:38 IST" name="logoutFromApplication" finished-at="2022-02-16T12:50:42 IST" duration-ms="3755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyWorkSchedulePage status=SUCCESS method=TestNG_Class_102.toVerifyWorkSchedulePage()[pri:5, instance:TestCasePack.TestNG_Class_102@68999068] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:42 IST" name="clearPOMObjects" finished-at="2022-02-16T12:50:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:TestCasePack.TestNG_Class_102@68999068]" started-at="2022-02-16T12:50:57 IST" name="closedBrowser" finished-at="2022-02-16T12:50:59 IST" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- TestCasePack.TestNG_Class_102 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-16T12:51:00 IST" name="FirefoxTest" finished-at="2022-02-16T12:53:06 IST" duration-ms="126673">
+      <class name="TestCasePack.TestNG_Class_101">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:51:00 IST" name="launchBrowser" finished-at="2022-02-16T12:51:36 IST" duration-ms="36524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:51:58 IST" name="createPOMObjects" finished-at="2022-02-16T12:51:58 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:51:58 IST" name="loginToApplication" finished-at="2022-02-16T12:52:21 IST" duration-ms="22533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTimeTrackPage()[pri:1, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:21 IST" name="toVerifyTimeTrackPage" finished-at="2022-02-16T12:52:22 IST" duration-ms="1284" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://localhost/user/submit_tt.do] but found [http://localhost/login.do]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://localhost/user/submit_tt.do] but found [http://localhost/login.do]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestCasePack.TestNG_Class_101.toVerifyTimeTrackPage(TestNG_Class_101.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTimeTrackPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:22 IST" name="logoutFromApplication" finished-at="2022-02-16T12:52:32 IST" duration-ms="9991" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTimeTrackPage status=FAILURE method=TestNG_Class_101.toVerifyTimeTrackPage()[pri:1, instance:TestCasePack.TestNG_Class_101@4f6ee6e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at utils.Utility.captureScrrenshot(Utility.java:25)
+at TestCasePack.TestNG_Class_101.logoutFromApplication(TestNG_Class_101.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:32 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996152725" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTasksPage()[pri:2, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:32 IST" name="toVerifyTasksPage" finished-at="2022-02-16T12:52:32 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at utils.Utility.captureScrrenshot(Utility.java:25)
+at TestCasePack.TestNG_Class_101.logoutFromApplication(TestNG_Class_101.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTasksPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:32 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996152883" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:32 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996152936" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyReportsPage()[pri:3, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:32 IST" name="toVerifyReportsPage" finished-at="2022-02-16T12:52:32 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[[Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: [Exception... "Data conversion failed because significant data would be lost"  nsresult: "0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)"  location: "<unknown>"  data: no]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.110.176', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220202182137, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7176, moz:profile: C:\Users\hp-pc\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.2, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 450e11eb-f329-4ca4-8f8b-78f218a1852e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at utils.Utility.captureScrrenshot(Utility.java:25)
+at TestCasePack.TestNG_Class_101.logoutFromApplication(TestNG_Class_101.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyReportsPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:33 IST" name="logoutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996153002" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:52:33 IST" name="clearPOMObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996153009" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:TestCasePack.TestNG_Class_101@4f6ee6e4]" started-at="2022-02-16T12:53:06 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996186754" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- TestCasePack.TestNG_Class_101 -->
+      <class name="TestCasePack.TestNG_Class_102">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:51:36 IST" name="launchBrowser" finished-at="2022-02-16T12:51:58 IST" duration-ms="21952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:51:58 IST" name="createPOMObjects" finished-at="2022-02-16T12:51:58 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:51:58 IST" name="loginToApplication" finished-at="2022-02-16T12:52:19 IST" duration-ms="20700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyUsersPage()[pri:4, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:52:19 IST" name="toVerifyUsersPage" finished-at="2022-02-16T12:52:43 IST" duration-ms="24233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUsersPage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:52:43 IST" name="logoutFromApplication" finished-at="2022-02-16T12:52:47 IST" duration-ms="4273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUsersPage status=SUCCESS method=TestNG_Class_102.toVerifyUsersPage()[pri:4, instance:TestCasePack.TestNG_Class_102@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:52:47 IST" name="loginToApplication" finished-at="2022-02-16T12:52:56 IST" duration-ms="8900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyWorkSchedulePage()[pri:5, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:52:56 IST" name="toVerifyWorkSchedulePage" finished-at="2022-02-16T12:53:02 IST" duration-ms="5943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyWorkSchedulePage -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:53:02 IST" name="logoutFromApplication" finished-at="2022-02-16T12:53:06 IST" duration-ms="4090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyWorkSchedulePage status=SUCCESS method=TestNG_Class_102.toVerifyWorkSchedulePage()[pri:5, instance:TestCasePack.TestNG_Class_102@4466af20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="clearPOMObjects()[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:53:06 IST" name="clearPOMObjects" finished-at="2022-02-16T12:53:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObjects -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:TestCasePack.TestNG_Class_102@4466af20]" started-at="2022-02-16T12:53:06 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1644996186766" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- TestCasePack.TestNG_Class_102 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

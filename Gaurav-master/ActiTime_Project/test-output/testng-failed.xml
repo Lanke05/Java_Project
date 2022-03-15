@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestCasePack.TestNG_Class_101">
+        <methods>
+          <include name="clearPOMObject"/>
+          <include name="toVerifyTasksPage"/>
+          <include name="launchBrowser"/>
+          <include name="toVerifyReportsPage"/>
+          <include name="createPOMObjects"/>
+          <include name="toVerifyTimeTrackPage"/>
+          <include name="closedBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+        </methods>
+      </class> <!-- TestCasePack.TestNG_Class_101 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
